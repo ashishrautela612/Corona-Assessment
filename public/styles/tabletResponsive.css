@@ -1,0 +1,218 @@
+@media (min-width:768px) and (max-width:1170px){
+    .navbar a{
+        padding: 14px 15px;
+    }
+    .homeSectionArrows{
+        display: none;
+    }
+    .coronaImage{
+        width: 33%;
+    }
+    .whatIsCorona {
+        padding: 0% 6% 0% 6%;
+    }
+    .coronaDescription > p {
+        padding: 4% 0%;
+    }
+    .coronaDescription > button{
+        padding: 9px 55px;
+    }
+    .preventions{
+        background-image: none;
+    }
+    .preventionsContainer {
+        padding: 2% 7%;
+    }
+    .preventionsCards{
+        padding: 3% 0;
+        justify-content: space-around;
+    }
+    .preventionCard{
+        width: 33%;
+    }
+    .preventionArrows {
+        display: none;
+    }
+    .preventionDetails {
+        padding: 15px 20px 14px 20px;
+    }
+    .preventionDesc{
+        padding: 0 7%;
+    }
+    .casescardsContainer{
+        padding: 2% 7%;
+    }
+    .casesCards{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .caseCardContainer{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 8%;
+    }
+    .cardReadMoreBtn{
+        display: none;
+    }
+    .caseDescContainer{
+        padding-top: 2%;
+    }
+    .coronaIcon{
+        left: 45%;
+    }
+    .doctorAdvice{
+        padding-top: 9%;
+    }
+    .advices{
+        padding: 5% 7%;
+    }
+}
+
+@media (min-width:550px) and (max-width:765px){
+.one{
+    display: none;
+}
+.navbar a{
+    padding:14px 9px ;
+}
+.homeSectionArrows{
+    display: none;
+}
+.homeSection{
+    padding-top: 18%;
+    padding-bottom: 5%;
+}
+
+.aboutCoronaVirusContainer{
+    top: 0;
+}
+.aboutCorona{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.aboutContent{
+    width: 100%;
+    padding: 6% 2%;
+}
+.aboutbottomBar{
+    display: none;
+}
+.aboutCoronaDescription{
+    padding: 2% 0%;
+}
+.whatIsCorona{
+    width: 84%;
+    margin: auto;
+    padding: 0;
+    padding-top: 9%;
+}
+.coronaSymptoms{
+    flex-direction: column;
+}
+.coronaSymtomsFigure {
+    width: 100%;
+}
+.coronaDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+.preventionSection{
+    width: 84%;
+    margin: auto;
+}
+.preventionsContainer{
+    padding: 2% 0;
+}
+.preventions{
+    background-image: none;
+}
+.preventionArrow{
+    display: none;
+}
+.preventionsCards{
+    flex-direction: column;
+    gap: 30px;
+}
+.preventionCard{
+    width: 100%;
+}
+.cases{
+    padding-top: 0;
+    width: 84%;
+    margin: auto;
+}
+.casesTop > p{
+    padding: 0;
+}
+.cardReadMoreBtn{
+    display: none;
+}
+.casescardsContainer{
+    padding: 0;
+    padding-top: 5%;
+}
+.casesCards{
+    flex-direction: column;
+    gap: 30px;
+}
+.caseCardContainer{
+    width: 100%;
+    padding: 0;
+}
+.coronaIcon{
+    display: none;
+}
+.caseDescContainer {
+    padding-top: 3%;
+    text-align: center;
+}
+.doctorAdvice{
+    width: 84%;
+    margin: auto;
+}
+.advices{
+    padding: 12% 0% 0% 0%;
+    background: none;
+}
+.advicesContainer{
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.adviceCard{
+    width: 100%;
+}
+.updates{
+    background: none;
+    padding-top: 5%;
+}
+.footerContainer{
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.footer{
+    width: 84%;
+    margin: auto;
+    flex-direction: column;
+    gap: 24px;
+    padding: 6% 0;
+}
+.colOne,.colTwo,.colThree,.colFour{
+    width: 100%;
+}
+.colOne{
+    gap: 5px;
+}
+.oneTwo{
+    text-align: left;
+}
+.footerCol > h2{
+    padding-bottom: 2%;
+}
+}
