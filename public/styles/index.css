@@ -58,6 +58,9 @@ img{
     vertical-align: middle;
 font-size: 13px;
 }
+.navItem:hover{
+  color: #111111;
+}
 .one i {
     color: #fff;
     padding: 20px;
@@ -109,6 +112,9 @@ font-size: 13px;
     height: 80px;
     width: 50px;
 }
+.homeSectionArrows:hover{
+  color: black;
+}
 .leftArrow{
   border-radius: 0px 71px 76px 0px;
     left: 0;
@@ -118,6 +124,7 @@ font-size: 13px;
   position: absolute;
   font-size: 35px;
   top: 23%;
+  color: white;
 }
 .rightArrow{
   right: 0;
@@ -129,6 +136,7 @@ font-size: 13px;
   top: 26%;
   right: 6%;
   font-size: 35px;
+  color: white;
 
 }
 .homeSectionHeading {
@@ -146,6 +154,14 @@ font-size: 13px;
   padding: 0.8% 4.5%;
   margin-right: 10px;
   font-size: 11px;
+  transition: all 0.45s ease-in-out;
+}
+
+.readMoreBtn:hover{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+
 }
 .aboutUsBtn {
   background-color: white;
@@ -153,6 +169,13 @@ font-size: 13px;
   border: none;
   padding: 0.8% 4.5%;
   font-size: 11px;
+  transition: all 0.45s ease-in-out;
+}
+
+.aboutUsBtn:hover{
+  background-color: #ed242e;
+  color: white;
+  border-radius: 10px;
 }
 .aboutCoronaVirusContainer {
   width: 84%;
@@ -202,6 +225,11 @@ font-size: 13px;
     background-color: rgba(5, 37, 77, 255);
     color: white;
     border: none;
+    transition: all 0.45s ease-in-out;
+}
+.readMoreAboutCoronaBtn:hover{
+  border-radius: 15px;
+  background-color: black;
 }
 .whatIsCorona{
 padding: 0% 13% 0% 18%
@@ -372,7 +400,11 @@ padding: 0% 13% 0% 18%
 
   background-color: rgba(254,254,253,255);
 box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
+transition: all 0.45s ease-in-out;
 
+}
+.caseCardContainer:hover{
+  transform: translateY(-20px);
 }
 .coronaIcon{
   height: 63px;
@@ -392,6 +424,9 @@ box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
     color: white;
     font-weight: 500;
 }
+.cardReadMoreBtn:hover{
+  background-color: #111111;
+}
 .adviceCard{
 background-color: rgba(254,254,253,255);
 box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
@@ -399,6 +434,10 @@ border-radius: 10px;
 width: 49%;
 padding: 50px 30px 27px 30px;
 position: relative;
+transition: all 0.45s ease-in-out;
+}
+.adviceCard:hover{
+  transform: scale(1.04);
 }
 .advices{
   padding: 5% 16%;
@@ -463,6 +502,10 @@ input[type="email"]::placeholder {
   color: white;
   text-transform: uppercase;
 }
+.updateBtn:hover{
+  background-color: #ed242e;
+  transition: all 0.45s ease-in-out;
+}
 .updateHeading{
   padding-bottom: 2%;
 }
@@ -495,7 +538,10 @@ width: 15%;
 }
 .colOne > a{
   color: #eaeae0;
-  
+}
+
+.colOne > a:hover{
+  color: #ed242e;
 }
 .colTwo{
 width: 25%;
@@ -505,6 +551,9 @@ width: 25%;
  }
 .colThree{
 width: 18%;
+}
+.colThree > p:hover{
+color: #ed242e;
 }
 .colFour{
 width: 25%;
